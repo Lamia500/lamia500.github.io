@@ -215,11 +215,12 @@ section {
 }
 
 .home-sci {
-    position: absolute;
+    position: relative;
     bottom: 4rem;
     width: 170px;
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .home-sci a {
@@ -742,7 +743,7 @@ html {
 }
 
 .animate.home-img {
-    width: 50%;
+    width: 80%;
 }
 
 .logo .animate,
@@ -790,6 +791,12 @@ section:nth-child(odd) .animate.scroll,
 
 
 /* BREAKPOINTS */
+@media (max-width: 1550px) {
+    html {
+        font-size: 45%;
+    }
+}
+
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
